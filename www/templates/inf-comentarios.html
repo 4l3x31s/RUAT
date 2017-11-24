@@ -1,0 +1,28 @@
+<ion-view view-title="Comentarios">
+  <ion-content scroll="false">
+    <div class="contenedor scroll-content ionic-scroll overflow-scroll">
+        <form name="busGralFormInm" novalidate>
+          <div class="list">
+            <span class="item item-input item-stacked-label"/>
+              <span class="wrap">Por favor, introduzca su comentario y/o sugerencia.</span>
+              <br><br>
+              <textarea type="text" cols="40" ng-model="txtComentario"
+                     rows="5" placeholder="Comentario" required>
+                </textarea>
+            </label>
+          </div>
+          <div class="popup-buttons">
+            <button class="button button-assertive" ng-disabled="busGralFormInm.$invalid" ng-click="buscarInmueble(txtComentario)">
+              Registrar
+            </button>
+
+          <!--<button ng-disabled="busGralFormInm.$invalid"
+                  class="btn-floating btn-large waves-effect waves-light btn-assertive"
+                  id="send" ng-click="buscarInmueble(txtComentario)">
+            <i class="ion-android-send"></i>
+          </button>-->
+          </div>
+        </form>
+    </div>
+  </ion-content>
+</ion-view>
