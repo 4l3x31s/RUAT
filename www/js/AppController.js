@@ -38,7 +38,7 @@ angular.module('ControladorApp', [])
     });
 })
     .controller('MoInicioCtrl', function ($scope, $ionicLoading, $rootScope, ServiciosRuat, $ionicPopup, $ionicHistory, $state, $ionicPlatform, $location, $ionicBackdrop, $timeout, $cordovaDevice) {
-    var cadenaDireccion = "{\"iv\":\"ACEALA4lpwMXuuPJ0KzjyQ==\",\"v\":1,\"iter\":1000,\"ks\":128,\"ts\":64,\"mode\":\"ccm\",\"adata\":\"\",\"cipher\":\"aes\",\"salt\":\"eMuE366NB8g=\",\"ct\":\"Ne6wfpWzdj1rQ32Zh2Cc/yXnudahGUmB5vzK45GhXwxT8qLzk4/6694Uyx0BAbc/DecC8q7k2zvvbjCktXnwnKFSgoaQg770vBaZaVhQpv4EYek=\"}";
+    var cadenaDireccion = "{\"iv\":\"m9V1AfH2AQcgxxx7eqPiVg==\",\"v\":1,\"iter\":1000,\"ks\":128,\"ts\":64,\"mode\":\"ccm\",\"adata\":\"\",\"cipher\":\"aes\",\"salt\":\"W3wWTG5BBBA=\",\"ct\":\"mUWGZnV2jDWpcZnPb3p6ZIjfaWdQ24Z8hVkvsLH0nkNUbCKM/+Q8BDr+uVVlBbLo4llrWa1K+9vyfBlbsOYKAA==\"}";
     var clave = "RUATMOVIL";
     var desencriptado = sjcl.decrypt(clave, cadenaDireccion);
     console.log(desencriptado);

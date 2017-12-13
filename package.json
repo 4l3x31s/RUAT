@@ -23,13 +23,10 @@
     "cordova-sqlite-storage": "^2.1.2",
     "cordova.plugins.diagnostic": "^3.7.2",
     "ionic-plugin-keyboard": "^2.2.1",
-    "phonegap-plugin-barcodescanner": "^7.0.0",
-    "cordova-ios": "~4.5.4",
-    "cordova-android": "~6.3.0"
+    "phonegap-plugin-barcodescanner": "^7.0.0"
   },
   "cordova": {
     "plugins": {
-      "com.wmjalak.cordova.fileopener": {},
       "cordova.plugins.diagnostic": {},
       "cordova-plugin-app-version": {},
       "ionic-plugin-keyboard": {},
@@ -44,11 +41,11 @@
       "cordova-sqlite-storage": {},
       "phonegap-plugin-barcodescanner": {
         "CAMERA_USAGE_DESCRIPTION": " "
-      }
+      },
+      "com.wmjalak.cordova.fileopener": {}
     },
     "platforms": [
-      "ios",
-      "android"
+      "ios"
     ]
   }
 }

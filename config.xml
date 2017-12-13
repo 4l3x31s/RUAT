@@ -86,9 +86,6 @@
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
-    <engine name="ios" spec="~4.5.4" />
-    <engine name="android" spec="~6.3.0" />
-    <plugin name="com.wmjalak.cordova.fileopener" spec="~1.0.0" />
     <plugin name="cordova.plugins.diagnostic" spec="^3.7.2" />
     <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
@@ -104,4 +101,6 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.0">
         <variable name="CAMERA_USAGE_DESCRIPTION" value=" " />
     </plugin>
+    <plugin name="com.wmjalak.cordova.fileopener" spec="~1.0.0" />
+    <engine name="ios" spec="~4.5.4" />
 </widget>
